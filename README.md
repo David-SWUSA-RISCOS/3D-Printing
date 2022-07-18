@@ -28,3 +28,5 @@ For layer height of 0.1mm (more common):
 * Thread pitch down to 0.75mm (that is 1.25 threads per mm).
 
 Most of the testing I have done is with a low cost FDM 3D printer, and mostly with layer heights of 0.05 for threaded objects.  It may be possible to do better at 0.1mm layer height than I have tested as that is minimally tested.  The above numbers are with a nozle diameter of 0.2mm, this is quite smaller than normal, though it should be possible to achieve the same results with a nozle diameter up to 0.4mm.
+
+Also remember with threaded objects that you can achieve smooter results by quickly polishing the end part with toothpaste, though do not overdue it.
