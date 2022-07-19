@@ -30,3 +30,35 @@ For layer height of 0.1mm (more common):
 Most of the testing I have done is with a low cost FDM 3D printer, and mostly with layer heights of 0.05 for threaded objects.  It may be possible to do better at 0.1mm layer height than I have tested as that is minimally tested.  The above numbers are with a nozle diameter of 0.2mm, this is quite smaller than normal, though it should be possible to achieve the same results with a nozle diameter up to 0.4mm.
 
 Also remember with threaded objects that you can achieve smooter results by quickly polishing the end part with toothpaste, though do not overdue it.
+
+**You Can get better precision than layer height** by careful thought of tolerances combined with careful polishing.  So you can have finer movement in a drive screw than the layer height of the printed drive screw given correct care.
+
+## 3D Printed 3D Printers:
+
+Given correct thought the only parts of a 3D printer that **can not be printed** in PLA are:
+* Glass of print bed.
+* Wires.
+* Power Suply.
+* Controler board('s) and electronic components on them.
+* Stepper motors.
+* Fan motors (can have multiple printed fans on one motor though).
+* Hot End.
+* Nozzle.
+* PTFE Tubing (for Bowden Extruder assembly).
+
+Of that list some things can be printed in wax and made in metal with lost wax molding.  Also a lot of the equipment for lost wax molding (including where heat is needed) can be printed in Clay with PLA and fired to get us closser to 100%.   If you use a mostly 3D-Printed Printer, CNC, and lost wax metal molding setup, you can come close to 95% of the combined equipment being able to be reproduced on the combined equipment.
+
+With a combination of 3D-Printer, CNC, and Lost Wax metal/glass molding station, all mostly 3D printed you would be able to also produce:
+* HotEnd (including heater).
+* Bits for the CNC.
+* PCB's.
+* ~50% of the fan motors (just add insulated Silver Wire windings).
+* ~70% of the Stepper motors (just add insultaed Silver Wire Windings).
+* The print bed glass.
+* All of the CNC except electronic components and wires.
+* The mold casings, pots, and burners for the lost wax molding station.
+* Most of the resisters, potentiometers and capacitors.
+* All hand tools used, including side cuters, flat cuters, angle cuters, high temp tongs, metal wrenches, etc.
+
+This would make for a 3 device setup that in combination is able to reproduce more than 95% of its own parts.  If you count a wire extrusion pot and vat in the molding station (also printable with clay and firing) then you can get above 97% reproducable.  These are all fairly simple setups, though in all cases there is care and caution that must be taken to achieve the safe operation of the equipment.
+
