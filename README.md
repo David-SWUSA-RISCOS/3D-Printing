@@ -17,9 +17,11 @@ On the software side this will likely include some software for Macintosh System
 
 I have used the Anet A8, a couple home made Prusa i3 Clones, and now my main 2 3D printers are TronXY X1's with upgrades.  For nozzle diameter I use both 0.4mm and 0.2mm depending on what is best for the print. This should aid in giving an idea of what quality of printer is needed to reach the resolutions equal to what I know when making things.
 
-The TronXY X1 is a ver stable printer that provides a lot less vibration and a lot less error than the previous printer's, as such it is the base model I stick with.  Yes there are a few upgrades that are important with the TronXY X1 (better y rail to bed platform, better Z support, everything else is gravy), though once these standard new printer upgrades are done and you get the printer completely tuned in the TronXY X1 is hard to beat in quality of prints for under $500 USD.
+The TronXY X1 is a very stable printer that provides a lot less vibration and a lot less error than the previous printer's, as such it is the base model I stick with.  Yes there are a few upgrades that are important with the TronXY X1 (better y rail to bed platform, better Z support, everything else is gravy), though once these standard new printer upgrades are done and you get the printer completely tuned in the TronXY X1 is hard to beat in quality of prints for under $500 USD.
 
 I take some effort to be sure that the models I share will print well on even less stable printers (like the A8), though most of my print's are on a TronXY X1.
+
+With the TronXY X1 it is possible to get clean prints with layer heights down to 0.03mm, though I usually stick to 0.05mm when vertical detail is important (like small thread nuts and bolts), 0.1mm for most production (final version) prints that do not need the fine layers, and between 0.15 and 0.2mm for quick draft quality prints (very quick test prints and prints that do not need to be of any quality).
 
 
 
