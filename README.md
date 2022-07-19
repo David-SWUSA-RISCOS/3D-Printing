@@ -13,6 +13,14 @@ One eventual goal is to provide enough parts that if you have the controller boa
 
 On the software side this will likely include some software for Macintosh System Software and some for RISC OS.
 
+**NOTE MY PRINTER's:**
+
+I have used the Anet A8, a couple home made Prusa i3 Clones, and now my main 2 3D printers are TronXY X1's with upgrades.  For nozzle diameter I use both 0.4mm and 0.2mm depending on what is best for the print. This should aid in giving an idea of what quality of printer is needed to reach the resolutions equal to what I know when making things.
+
+The TronXY X1 is a ver stable printer that provides a lot less vibration and a lot less error than the previous printer's, as such it is the base model I stick with.  Yes there are a few upgrades that are important with the TronXY X1 (better y rail to bed platform, better Z support, everything else is gravy), though once these standard new printer upgrades are done and you get the printer completely tuned in the TronXY X1 is hard to beat in quality of prints for under $500 USD.
+
+I take some effort to be sure that the models I share will print well on even less stable printers (like the A8), though most of my print's are on a TronXY X1.
+
 
 
 ---
