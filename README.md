@@ -66,5 +66,5 @@ With a combination of 3D-Printer (capable of PLA and Wax printing), CNC, and Los
 * Most of the resisters, potentiometers and capacitors.
 * All hand tools used, including side cuters, flat cuters, angle cuters, high temp tongs, metal wrenches, etc.
 
-This would make for a 3 device setup that in combination is able to reproduce more than 95% of its own parts.  If you count a wire extrusion pot and vat in the molding station (also printable with clay and firing) then you can get above 97% reproducable.  These are all fairly simple setups, though in all cases there is care and caution that must be taken to achieve the safe operation of the equipment.
+This would make for a 3 device setup that in combination is able to reproduce more than 95% of its own parts.  If you count a wire extrusion pot and vat in the molding station (also printable with clay and firing) then you can get above 97% reproducable (as you could make most of the wires as well).  These are all fairly simple setups, though in all cases there is care and caution that must be taken to achieve the safe operation of the equipment.
 
