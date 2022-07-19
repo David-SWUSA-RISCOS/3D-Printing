@@ -54,7 +54,7 @@ Given correct thought the only parts of a 3D printer that **can _not_ be printed
 
 Of that list some things can be printed in wax and made in metal with lost wax molding.  Also a lot of the equipment for lost wax molding (including where heat is needed) can be printed in Clay with PLA and fired to get us closser to 100%.   If you use a mostly 3D-Printed Printer, CNC, and lost wax metal molding setup, you can come close to 95% of the combined equipment being able to be reproduced on the combined equipment.
 
-With a combination of 3D-Printer, CNC, and Lost Wax metal/glass molding station, all mostly 3D printed you would be able to also produce:
+With a combination of 3D-Printer (capable of PLA and Wax printing), CNC, and Lost Wax metal/glass molding station, all mostly 3D printed you would be able to also produce:
 * HotEnd (including heater).
 * Bits for the CNC.
 * PCB's.
