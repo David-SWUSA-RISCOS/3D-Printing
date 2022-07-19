@@ -13,7 +13,7 @@ One eventual goal is to provide enough parts that if you have the controller boa
 
 On the software side this will likely include some software for Macintosh System Software and some for RISC OS.
 
-# Nuts and Bolts:
+## Nuts and Bolts:
 
 A lot of projects require people to purchase seperately bolts and nuts, this should not be the case as 99% of what is needed for nuts and bolts can be printed.  Here are some known specs from my experience:
 
@@ -35,7 +35,7 @@ Also remember with threaded objects that you can achieve smooter results by quic
 
 ## 3D Printed 3D Printers:
 
-Given correct thought the only parts of a 3D printer that **can not be printed** in PLA are:
+Given correct thought the only parts of a 3D printer that **can _not_ be printed** in PLA are:
 * Glass of print bed.
 * Wires.
 * Power Suply.
