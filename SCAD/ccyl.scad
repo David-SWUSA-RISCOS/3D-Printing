@@ -1,4 +1,5 @@
 //This is a simple cylinder with camphered ends.
+//This is the basis for many other things.
 
 //Depending on usage and desired quality you may
 //need to set the detail to a higher level than
