@@ -1,10 +1,12 @@
 //This is too complex to preview, must full render.
 
 //Change the detail based on size as needed.  64 is
-//good for up to 10mm diameter threads in most cases,
+//good for up to 5mm diameter threads in most cases,
 //if a bit tighter tolarance is needed go to 128.
-$fn=64;
+//For diameter greater than 10mm stick with 256 or
+//512 for detail.
 detail=64;
+$fn=detail;
 
 
 SqrHead(3,3,3);
