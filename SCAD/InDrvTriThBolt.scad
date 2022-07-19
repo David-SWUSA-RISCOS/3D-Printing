@@ -1,11 +1,11 @@
 //This is too complex to preview, must full render.
 
-//Change the detail based on size as needed.  64 is
-//good for up to 5mm diameter threads in most cases,
-//if a bit tighter tolarance is needed go to 128.
+//Change the detail based on size as needed.  128 is
+//good for up to 10mm diameter threads in most cases,
+//if a bit tighter tolarance is needed go to 256.
 //For diameter greater than 10mm stick with 256 or
 //512 for detail.
-detail=64;
+detail=128;
 $fn=detail;
 
 
@@ -40,7 +40,7 @@ module triThread(h,r,p){
     rotate([0,0,rot])
       translate([0,r,(hi-p/2)+((rot%360)/360*p)])
         rotate([45,0,0])
-          cube([r*0.12,p*0.71,p*0.71], center=true);
+          cube([r/(detail*0.7),p*0.71,p*0.71], center=true);
   }
 }
 //
