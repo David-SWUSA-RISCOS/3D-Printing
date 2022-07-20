@@ -1,4 +1,4 @@
-//This is too complex to preview, must full render.
+//This can be too complex to preview, must full render.
 
 //This script creates inside drive triangular thread bolts,
 //with simple parameters.
@@ -7,7 +7,8 @@
 //good for up to 10mm diameter threads in most cases,
 //if a bit tighter tolarance is needed go to 256.
 //For diameter greater than 10mm stick with 256 or
-//512 for detail.
+//512 for detail.  64 or 32 are good for quick preview
+//renders.
 detail=128;
 $fn=detail;
 
@@ -22,23 +23,28 @@ hexDrive = 6;
 //depending on material and size of bolt.
 
 //Parameters, set to your bolt:
-tol     = 0.1; //Spacing tolarance for your printer.
+tol     = 0.1;  //Spacing tolarance for your printer.
 drive   = sqrDrive;  //Type of drive (inside drive only).
-DrvSize = 4;   //Size of drive hole in mm.
-HeadSz  = 4;   //Radius of head in mm.
-HeadHt  = 3;   //Height of head.
-ThPitch = 0.5; //Thread pitch in mm per thread.
+DrvSize = 4;    //Size of drive hole in mm.
+HeadSz  = 4;    //Radius of head in mm.
+HeadHt  = 3;    //Height of head.
+HeadCamf= 0.5;  //Height of edge camfer on head.
+ThPitch = 0.5;  //Thread pitch in mm per thread.
+ThLen   = 10;   //Length of threaded shaft.
+ThRad   = 2.5;  //Radius of threaded shaft.
+ThCamf  = 0.25; //Height of camfer on end of threads.
+
 
 
 
 
 Head(HeadHt,HeadSz,DrvSize);
-translate([0,0,HeadHt]) triBolt(10,2.5,ThPitch);
+translate([0,0,HeadHt]) triBolt(ThLen,ThRad,ThPitch);
 
 
 module Head(h,r,s){
   difference(){
-    ccyl(h,r,0.5);
+    ccyl(h,r,HeadCamf);
     cylinder(h,r=s*cos(180/drive),center=true, $fn=drive);
     }
 }
@@ -51,14 +57,14 @@ module triBolt(h,r,tp){
       cylinder(h,r=r);
       triThread(h,r,tp);
     }
-    cylcamfer(0.5,r,0.5,0,0,h-0.5);
+    cylcamfer(ThCamf,r,ThCamf,0,0,h-ThCamf);
   }
 }
 //
 
 
 module triThread(h,r,p){
-  for(hi=[0:p:h]) for(rot= [0:360/detail:360]) {
+  for(hi=[-p:p:h+p]) for(rot= [0:360/detail:360]) {
     rotate([0,0,rot])
       translate([0,r-(p/(1/(tol/2))),(hi-p/2)+((rot%360)/360*p)])
         rotate([45,0,0])
