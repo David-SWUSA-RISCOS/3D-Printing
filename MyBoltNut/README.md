@@ -3,7 +3,7 @@
 Most of these are simple triangular threaded nuts and bolts.  All bolts have inside drive (like hex key bolts) of either square or triangle profile.  Nuts are either square outside or have two pin type drive.
 
 The part names for bolts are in the form of (in order):
-* DrvType : Sqr for Square drive and Tri for tirangle Drive, this is followed by the size of the drive hole.
+* DrvType : **Sqr** for Square drive and **Tri** for tirangle Drive, this is followed by the size of the drive hole.
 * H..   : Head diameter where the .. is replced by the head diameter in mm.
 * L..   : The length of the threaded shaft in mm.
 * D..   : The outside diameter of the threaded shaft in mm.
