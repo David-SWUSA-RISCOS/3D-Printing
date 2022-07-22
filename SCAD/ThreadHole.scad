@@ -34,13 +34,15 @@ module ThreadHole(h,hd,p){
 //holes of 3mm diameter and 1mm thread pitch near the corners
 //as an example of using the ThreadHole module.   For normal
 //usage the example code should be commented out.
-difference(){
-  cube([30,30,5],center=true);
-  union(){
-    translate([11.5,11.5,-2.5]) ThreadHole(5,3,1);
-    translate([-11.5,11.5,-2.5]) ThreadHole(5,3,1);
-    translate([11.5,-11.5,-2.5]) ThreadHole(5,3,1);
-    translate([-11.5,-11.5,-2.5]) ThreadHole(5,3,1);
-  }
-}
+
+//difference(){
+//  cube([30,30,5],center=true);
+//  union(){
+//    translate([11.5,11.5,-2.5]) ThreadHole(5,3,1);
+//    translate([-11.5,11.5,-2.5]) ThreadHole(5,3,1);
+//    translate([11.5,-11.5,-2.5]) ThreadHole(5,3,1);
+//    translate([-11.5,-11.5,-2.5]) ThreadHole(5,3,1);
+//  }
+//}
+
 //***** END EXAMPLE *****
