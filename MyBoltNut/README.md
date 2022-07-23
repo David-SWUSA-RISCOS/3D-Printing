@@ -10,6 +10,13 @@ The part names for bolts are in the form of (in order):
 * P..   : The thread pitch in mm per thread (eg 0.5 is 2 threads per mm or 20 threads per cm).
 * .stl    : File name extension for crude ancient style Operating Systems that use the file extension to determine the file type.
 
+The part names of the Nuts take the form (in order) of:
+* Type   : **SQNut** for outside square, **PNut** for four point hold round outside, or **RNut** for smooth round outside.
+* O..    : Outside diameter in mm (or side of square for SQNut).
+* T..    : OD of the inner threads in mm (to match the bolt size that fits).
+* P..    : Thread pitch in mm per thread (same as bolts).
+
+This directory just contains the nut and bolt sizes I have found tend to be the most used.  If you need a custom size grab the SCAD source and set your parameters then render it.
 
 Most models assume that your printer is capable of printing with an edge tollorance between two fitting parts of 0.1mm or better.  If your printer is not able to accomplish this get the SCAD files and modify the tollorance setting, and export a new STL for your use.
 
