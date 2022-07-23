@@ -20,6 +20,6 @@ This directory just contains the nut and bolt sizes I have found tend to be the 
 
 Most models assume that your printer is capable of printing with an edge tollorance between two fitting parts of 0.1mm or better.  If your printer is not able to accomplish this get the SCAD files and modify the tollorance setting, and export a new STL for your use.
 
-**NOTE:** These can be dificult to print if your printer is not well tuned.  My best results have been on a TronXY X1 that is stabalized to allow for tolerances of 0.05 clearence, reliable layer height of 0.05 (can do smaller), and printing at high tempurature for PLA (around 210 degrees C).
+**NOTE:** These can be dificult to print if your printer is not well tuned.  My best results have been on a TronXY X1 that is stabalized to allow for tolerances of 0.05 clearence, reliable layer height of 0.05 (can do smaller), printing at high tempurature for PLA (around 210 degrees C), with good part cooling.
 
 **NOTE:** There are limits to the strength of these bolts and nuts.  They are good for many printed items, having equal strength to many printed items.  Though as the layer adhesion is the week point to worry about there is a significant limit, take care not to rely on too much stress on the bolts and nuts.
